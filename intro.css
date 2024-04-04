@@ -1,0 +1,81 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.cv{
+    width: 193vh;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    background-color: #5db5e189;
+    height: 97vh;
+    padding-left: 3rem;
+    border-style: dotted;
+    border-color: black;
+    left: .3rem;
+    top: .5rem;
+}
+.nav{
+    width: 30%;
+    position: relative;
+    text-align: center;
+    padding-top: 2rem;
+    font-size: larger;
+}
+.sec{
+    display: flex;
+}
+.img-sec{
+    width: 40%;
+    padding-left: 4rem; 
+    padding-top: 1rem;   
+}
+.img-sec p{
+    width: 60%;
+    /* text-align: center; */
+}
+.img-sec a{
+    text-decoration: none;
+}
+.img-sec h1{
+    padding-top: 1rem;
+}
+img{
+    height: 300px;
+    width: 250px;
+    border-top-right-radius: 10%;
+    border-top-left-radius: 10%;
+}
+
+.History{
+    width: 30%;
+    color: aliceblue;
+    background-color: rgba(128, 128, 128, 0.565);
+    padding-left: 2rem;
+    border-radius: 1rem;
+    
+}
+.History:hover{
+    background-image: linear-gradient(to right,#9be15d ,#00d9a6);
+}
+.History li{
+    width: 80%;
+}
+.History li progress{
+    width: 80%;
+}
+.skills li{
+    width: 50%;
+}
+.History h1{
+    color: black;
+}
+.History a{
+    color: aliceblue;
+    text-decoration: none;
+    /* text-emphasis-color: black */
+}
+.education img{
+    width: 2vh;
+    height: 3vh;
+}
